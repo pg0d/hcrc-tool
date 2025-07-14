@@ -1,0 +1,46 @@
+.file-upload {
+  border: 2px dashed #ddd;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  background: white;
+  transition: border-color 0.3s ease;
+  width: 50%;
+}
+
+.file-upload:hover {
+  border-color: #0984e3;
+}
+
+.file-upload .icon {
+  font-size: 3rem;
+}
+
+.file-upload .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.file-upload h4 {
+  margin-bottom: 0px;
+  color: #2d3436;
+}
+
+.file-upload p {
+  color: #636e72;
+  font-size: 0.9rem;
+}
+
+.file-upload a {
+  color: #0984e3;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.file-upload a:hover {
+  text-decoration: underline;
+}
+
+.file-upload svg {
+  width: 50px;
+}

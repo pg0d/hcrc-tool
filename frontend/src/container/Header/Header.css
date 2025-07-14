@@ -1,0 +1,7 @@
+header {
+  margin-top: 3rem;
+}
+
+.header p {
+  color: var(--subheading-grey);
+}

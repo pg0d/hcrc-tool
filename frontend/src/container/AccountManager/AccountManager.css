@@ -1,0 +1,24 @@
+.account-form {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  font-family: 'Syne';
+  font-size: 1em;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 10px;
+}
+
+button {
+  font-family: 'Syne';
+  border: unset;
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: #093FB4;
+  cursor: pointer;
+  font-size: 1em;
+  border: 1px solid #093FB4;
+  background-color: transparent;
+}

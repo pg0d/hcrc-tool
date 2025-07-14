@@ -1,0 +1,53 @@
+.file-stats__item {
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: #f5f7faa8;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+  min-width: 180px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  color: #444;
+}
+
+.file-stats__item:hover {
+  background: #eef2f8;
+}
+
+.file-stats__item.selected {
+  background: var(--primary-blue, #093FB4);
+  color: white;
+  border-color: var(--primary-blue, #093FB4);
+}
+
+.file-stats__item.selected .file-stats__item-title .icon svg {
+  color: #fff;
+}
+
+.file-stats__item-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.file-stats__item-title .icon {
+  display: flex;
+}
+
+.file-stats__item-title .icon svg {
+  width: 20px;
+  height: 20px;
+  color: var(--primary-blue, #093fb4);
+}
+
+.file-stats__item-title .filename {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.file-stats__data {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

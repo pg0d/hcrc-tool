@@ -1,0 +1,21 @@
+.pill {
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s ease;
+  user-select: none;
+  padding: 10px 14px;
+  background-color: #f5f7faa8;
+  border-radius: 10px;
+  color: #444;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.pill:hover {
+  background-color: #eef2f8;
+}
+
+.pill.selected {
+  background: var(--primary-blue, #093FB4);
+  color: white;
+  border-color: var(--primary-blue, #093FB4);
+}

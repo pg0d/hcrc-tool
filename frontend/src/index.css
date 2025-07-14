@@ -1,0 +1,202 @@
+:root {
+  --primary-blue: #093FB4;
+  --off-white: #FFFCFB;
+  --light-pink: #FFD8D8;
+  --bright-orange: #ED3500;
+  --subheading-grey: #6B6B6B;
+}
+
+.page-width {
+  margin: 0 auto;
+  max-width: 1400px;
+  width: 95%;
+  padding: 2rem;
+}
+
+h1,
+h2 {
+  font-size: 2em;
+}
+
+.marginT {
+  margin: 1.2rem 0;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+/* 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+.tool-options__setings {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.tool-options__setings .pill {
+  padding: 8px 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  gap: 4px;
+}
+
+.tool-options__setings .pill .icon {
+  width: 20px;
+  display: flex;
+}
+
+.tool-options__main {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+
+.crawl-log {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.divider {
+  margin: 1.2rem 0;
+}
+
+.tool-options__main>div {
+  width: 50%;
+}
+
+.crawl-log {
+  padding: 20px 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.file-upload .icon svg {
+  width: 55px;
+}
+
+.file-upload {
+  border: 1px dashed;
+  border-radius: 9px;
+  padding: 30px;
+}
+
+.file-upload h4,
+.file-upload p {
+  margin: 0;
+}
+
+.file-upload p {
+  font-size: 13px;
+}
+
+.accounts .swiper-slide {
+  border: 1px solid;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  padding: 15px 10px;
+}
+
+.profile-icon svg {
+  width: 20px;
+  color: #000000;
+}
+
+.profile-details {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  margin: 0;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.crawl-stats {
+  list-style: none;
+  display: flex;
+  gap: 4px;
+}
+
+.crawl-stats>li {
+  width: 100%;
+  border: 1px solid #333;
+  padding: 30px 12px;
+  border-radius: 8px;
+  line-height: 1;
+  text-align: center;
+}
+
+.crawl-stats li .stats-number {
+  font-size: 18px;
+  margin-top: 4px;
+  color: #d73222;
+  font-family: 'Inter', sans-serif;
+}
+
+.console-log {
+  margin-top: 1rem;
+  padding: 20px;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  max-height: 600px;
+  overflow-y: auto;
+  border: 1px solid #333;
+  border-radius: 12px;
+} */

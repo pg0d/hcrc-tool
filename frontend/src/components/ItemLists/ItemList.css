@@ -1,0 +1,47 @@
+.item-list__container {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.item-list__card {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-left: 4px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #fafafa;
+}
+
+.item-list__card:hover {
+  border-left-color: #0070f3;
+  background-color: #f0f8ff;
+}
+
+.item-list__card.selected {
+  border-left-color: #0070f3;
+  background-color: #e6f2ff;
+}
+
+.item-list__header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.item-list__details {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.item-list__details a {
+  color: #0070f3;
+  text-decoration: underline;
+}
+
+.item-id {
+  font-weight: bold;
+}

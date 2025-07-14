@@ -1,0 +1,28 @@
+.tool-options {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tool-pill {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #f1f1f1;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tool-pill .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.tool-pill.active {
+  background-color: var(--primary-blue, #093FB4);
+  color: white;
+  border-color: var(--primary-blue, #093FB4);
+}
